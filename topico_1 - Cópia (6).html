@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8"/>
+    </head>
+    <body>
+        <h1>Fronteiras de CSS</h1>
+        <b>Propriedades de borda CSS</b>
+        <p>As border propriedades CSS permitem que você especifique o estilo, a largura e a cor da borda de um elemento.</p>
+        <img src="imagem/00.png"/>
+        <b>Estilo de borda</b>
+        <ul>
+            <li>dotted - Define uma borda pontilhada</li>
+            <li>dashed - Define uma borda tracejada</li>
+            <li>solid - Define uma borda sólida</li>
+            <li>double - Define uma fronteira dupla</li>
+            <li>groove- Define uma borda com sulcos 3D. O efeito depende do valor da cor da borda</li>
+            <li>ridge- Define uma borda 3D sulcada. O efeito depende do valor da cor da borda</li>
+            <li>inset- Define uma borda inserida em 3D. O efeito depende do valor da cor da borda</li>
+            <li>outset- Define uma borda de partida 3D. O efeito depende do valor da cor da borda</li>
+            <li>none - não define fronteiras</li>
+            <li>hidden - Define uma borda oculta</li>
+        </ul>
+        <p>A border-stylepropriedade especifica o tipo de borda a ser exibido.</p>
+        <p>Os seguintes valores são permitidos:</p>
+        <p>A border-stylepropriedade pode ter de um a quatro valores (para a borda superior, borda direita, borda inferior e borda esquerda).</p>
+        <b>Exemplo</b>
+        <img src="imagem/002.png"/>
+        <p>Resultado:</p>
+        <img src="imagem/003.png"/>
+        <h2>Largura da Fronteira</h2>
+        <p>A border-widthpropriedade especifica a largura das quatro bordas.</p>
+        <p>A largura pode ser definida como um tamanho específico (em px, pt, cm, em, etc) ou usando um dos três valores predefinidos: thin, medium ou thick.</p>
+        <p>A border-widthpropriedade pode ter de um a quatro valores (para a borda superior, borda direita, borda inferior e borda esquerda).</p>
+        <p>Largura de borda de 5px</p>
+        <b>Exemplo</b>
+        <img src=imagem/004.png/>
+        <h3>Cor da borda</h3>
+        <p>A border-colorpropriedade é usada para definir a cor das quatro bordas.</p>
+        <p>A cor pode ser definida por:</p>
+         <ul>
+            
+            <li>name - especifica um nome de cor, como "vermelho"</li>
+            <li>Hex - especifique um valor hexadecimal, como "# ff0000"</li>
+            <li>RGB - especifique um valor RGB, como "rgb (255,0,0)"</li>
+            <li>transparente</li>
+        </ul>
+        <p>A border-colorpropriedade pode ter de um a quatro valores (para a borda superior, borda direita, borda inferior e borda esquerda). </p>
+        <p>Se border-colornão estiver definido, herda a cor do elemento.</p>
+        <p>Borda vermelha</p>
+        <b>Exemplo</b>
+        <img src="imagem/006.png"/>
+        <h4>Fronteira - Lados Individuais</h4>
+        <p>Nos exemplos acima, você viu que é possível especificar uma borda diferente para cada lado.</p>
+        <p>Em CSS, há também propriedades para especificar cada uma das bordas (superior, direita, inferior e esquerda):</p>
+        <p>Estilos de Borda Diferentes</p>
+        <b>Exemplo</b>
+        <img src="imagem/007.png"/>
+        <p>O exemplo acima fornece o mesmo resultado como este:</p>
+        <b>Exemplo</b>
+        <img src="imagem/008.png"/>
+        <p>Então, aqui está como funciona:</p>
+        <b>Se a border-stylepropriedade tiver quatro valores:</b>
+        <p>estilo de borda: tracejado duplo pontilhado;</p>
+         <ul>
+            <li>a borda superior é pontilhada</li>
+            <li>borda direita é sólida</li>
+            <li>borda inferior é o dobro</li>
+            <li>borda esquerda está tracejada</li>
+             
+           
+        </ul>
+        <p>Se a border-stylepropriedade tiver três valores:</p>
+        <b>estilo de borda: duplo sólido pontilhado;</b>
+         <ul>
+            <li>a borda superior é pontilhada</li>
+            <li>as bordas direita e esquerda são sólidas</li>
+            <li>borda inferior é o dobro</li>
+             
+           
+        </ul>
+        <p>Se a border-stylepropriedade tiver dois valores:</p>
+        <b>estilo de borda: sólido pontilhado;</b>
+         <ul>
+            <li>as bordas superior e inferior são pontilhadas</li>
+            <li>as bordas direita e esquerda são sólidas</li>
+           
+             
+           
+        </ul>
+        <p>Se a border-stylepropriedade tiver um valor:</p>
+        <b>estilo de borda: pontilhado;</b>
+          <ul>
+            <li>todas as quatro fronteiras são pontilhadas</li>
+              
+            
+            
+        </ul>
+        <p>A border-stylepropriedade é usada no exemplo acima. No entanto, também funciona com border-width e border-color.</p>
+        <b>Border - Propriedade de taquigrafia</b>
+        <p>Como você pode ver nos exemplos acima, há muitas propriedades a serem consideradas ao lidar com bordas.</p>
+        <p>Para encurtar o código, também é possível especificar todas as propriedades de borda individuais em uma propriedade.</p>
+        <p>A borderpropriedade é uma propriedade abreviada para as seguintes propriedades de borda individuais:</p>
+         <ul>
+            <li>border-width</li>
+            <li>border-style (requeridos)</li>
+            <li>border-color</li>
+             
+           
+        </ul>
+        <b>Exemplo</b>
+        <img src="imagem/101.png"/>
+        <p>Resultado:</p>
+        <img src="imagem/13.png"/>
+        <p>Você também pode especificar todas as propriedades de borda individuais para apenas um lado:</p>
+        <b>Fronteira Esquerda</b>
+        <img src="imagem/14.png"/>
+        <p>Resultado:</p>
+        <img src="imagem/15.png"/>
+        <b>Borda inferior</b>
+        <img src="imagem/16.png"/>
+        <p>Resultado:</p>
+        <img src="imagem/17.png"/>
+        <b>Bordas arredondadas</b>
+        <p>A border-radiuspropriedade é usada para adicionar bordas arredondadas a um elemento:</p>
+        <img src="imagem/18.png"/>
+        <b>Exemplo</b>
+        <img src="imagem/20.png"/>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
